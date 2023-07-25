@@ -23,7 +23,7 @@ public class Main {
                     return;
                 }
 
-                // Учитываем, что входные данные могут быть в разном порядке
+                // Note that the input data may be in different order
                 code = args[1].split("=")[0].equals("--code") ? args[1].split("=")[1] : args[2].split("=")[1];
                 date = args[2].split("=")[0].equals("--date") ? args[2].split("=")[1] : args[1].split("=")[1];
 
